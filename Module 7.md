@@ -15,7 +15,7 @@ Else
 6.	Return 0
  
 ## Program:
-~~~
+```c
 #include<stdio.h> 
 struct eligib
 {
@@ -34,7 +34,7 @@ printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
 
 }
 }
-~~~
+```
 
 ## Output:
 ![437942938-f0f0bf4e-4dde-4304-9b9f-581b933479dd](https://github.com/user-attachments/assets/8e16bbc4-211e-416e-aa81-ae27ba164f94)
@@ -59,7 +59,7 @@ To write a C program for passing structure as function and returning a structure
 7.	Return 0
  
 ## Program:
-~~~
+```c
 #include<stdio.h> 
 struct numbers
 {
@@ -74,7 +74,7 @@ int add(struct numbers n)
 {
 return n.a+n.b;
 }
-~~~
+```
 ## Output:
 
 ![437943018-c9bbef68-f5d6-4ea5-abdf-738c3613fb66](https://github.com/user-attachments/assets/2cbc3b38-e644-48a0-8784-2a5a3e3547c8)
@@ -107,7 +107,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 ## Program:
-~~~
+```c
 #include <stdio.h> int main()
 {
  FILE *p;
@@ -116,7 +116,7 @@ Use scanf to input the file name into the name array.
  printf("\n%s File Opened",name); fclose(p);
  printf("\n%s File Closed",name);
 }
-~~~
+```
 ## Output:
 
 ![437943057-03b78301-cd7e-4c98-a32a-331efe240285](https://github.com/user-attachments/assets/216e5461-96f5-411b-947f-bdd9c3dc70df)
@@ -149,7 +149,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 ## Program:
-~~~
+```c
 #include <stdio.h> 
 int main()
 {
@@ -164,7 +164,7 @@ int main()
  printf("\nData added Successfully");
 
 }
-~~~
+```
 ## Output:
 ![437943116-9761eb6a-a91a-4fd4-b09e-d26607c4f9a6](https://github.com/user-attachments/assets/0b363545-9214-4b27-8177-8766c0c9f958)
 
@@ -194,7 +194,7 @@ The aim of this program is to dynamically allocate memory to store information a
 13.End the program by returning 0.
 
 ## Program:
-~~~
+```c
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject
@@ -225,7 +225,7 @@ int main()
     
     return 0;
 }
-~~~
+```
 
 ## Output:
 ![437943207-5a90ce8b-84af-4b77-a78a-eab3f9e4b944](https://github.com/user-attachments/assets/824824f3-b270-49a2-af0f-9a14a726193a)
